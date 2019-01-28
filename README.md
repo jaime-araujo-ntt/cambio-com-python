@@ -13,19 +13,19 @@ Um script para pegar os valores, via requeisição web, das cotações das princ
 ```sh
 cambio_dollar()
 ```
-  Passando ou não uma url, em string, de um arquivo JSON, é possível saber quantos Reais custa o Dólar.
+  É possível saber quantos Reais custa o Dólar, sendo opcional a passagem de uma url, em string, de um arquivo JSON.
 ```sh
 cambio_euro()
 ```
-  Passando ou não uma url, em string, de um arquivo JSON, é possível saber quantos Reais custa o Euro.
+  É possível saber quantos Reais custa o Euro, sendo opcional a passagem de uma url, em string, de um arquivo JSON.
 ```sh
 cambio_bitcoin()
 ```
-  Passando ou não uma url, em string, de um arquivo JSON, é possível saber quantos Reais custa o Euro.
+  É possível saber quantos Reais custa o Bitcoin, sendo opcional a passagem de uma url, em string, de um arquivo JSON.
 ```sh
-exportar_csv(dollar, euro)
+exportar_csv(dollar, euro, bitcoin)
 ```
-  Passando valores de Dollar e Euro, é possíve realizar a exportação para uma tabela CSV.
+  Passando valores de Dollar, Euro e Bitcoin, é possíve realizar a exportação para uma tabela CSV.
 
 ### Desenvolvedor
 
